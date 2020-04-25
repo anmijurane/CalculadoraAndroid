@@ -123,79 +123,126 @@
         android:layout_marginTop="@dimen/margentop"
         android:background="@color/background"
         android:text="4"
-        android:textColor="@color/colortexto_tf" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintEnd_toStartOf="@id/Cinco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Siete" />
 
     <Button
         android:id="@+id/Cinco"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:background="@color/background"
         android:text="5"
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintStart_toEndOf="@id/Cuatro"
+        app:layout_constraintTop_toBottomOf="@id/Ocho"
+
+        />
 
     <Button
         android:id="@+id/Seis"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:background="@color/background"
         android:text="6"
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintEnd_toStartOf="@id/Suma"
+        app:layout_constraintStart_toEndOf="@id/Cinco"
+        app:layout_constraintTop_toBottomOf="@id/Nueve" />
 
     <Button
         android:id="@+id/Suma"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:layout_marginEnd="@dimen/margenStart"
+        android:background="@color/background"
         android:text="+"
-        android:textColor="#FF5722" />
+        android:textColor="@color/colortexto_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Seis"
+        app:layout_constraintTop_toBottomOf="@id/Resta" />
 
     <Button
         android:id="@+id/Uno"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:background="@color/background"
         android:text="1"
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Cuatro" />
 
     <Button
         android:id="@+id/Dos"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:background="@color/background"
         android:text="2"
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintEnd_toStartOf="@id/Tres"
+        app:layout_constraintStart_toEndOf="@id/Uno"
+        app:layout_constraintTop_toBottomOf="@id/Cinco" />
 
     <Button
         android:id="@+id/Tres"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:layout_marginEnd="@dimen/margenStart"
+        android:background="@color/background"
         android:text="3"
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintEnd_toStartOf="@id/Igual"
+        app:layout_constraintStart_toEndOf="@id/Dos"
+        app:layout_constraintTop_toBottomOf="@id/Seis" />
 
     <Button
         android:id="@+id/Igual"
+        android:layout_width="wrap_content"
+        android:layout_height="239dp"
         android:layout_rowSpan="2"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/margentop"
+        android:layout_marginEnd="@dimen/margenStart"
+        android:background="@color/background"
         android:text="="
-        android:textColor="#FF5722" />
+        android:textColor="@color/colortexto_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Suma" />
 
     <Button
         android:id="@+id/Cero"
-        android:layout_columnSpan="2"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_marginStart="@dimen/margenStart"
+        android:background="@color/background"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_width="wrap_content"
         android:text="0"
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintTop_toBottomOf="@id/Uno"
+        android:layout_marginTop="@dimen/margentop"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
         android:id="@+id/Punto"
-        android:layout_gravity="fill"
-        android:layout_margin="2dp"
-        android:background="#424242"
+        android:layout_marginTop="@dimen/margentop"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_height="@dimen/ancho_cuadros"
+        android:layout_width="187dp"
+        android:background="@color/background"
         android:text="."
-        android:textColor="#FAFAFA" />
+        android:textColor="@color/colortexto_tf"
+        app:layout_constraintTop_toBottomOf="@id/Dos"
+        app:layout_constraintStart_toEndOf="@id/Cero" />
 </androidx.constraintlayout.widget.ConstraintLayout>
