@@ -6,4 +6,5 @@
     <dimen name="ancho_cuadros">115dp</dimen>
     <dimen name="margentop">10dp</dimen>
     <dimen name="margenStart">12dp</dimen>
+    <dimen name="tamañonumero">50sp</dimen>
 </resources>

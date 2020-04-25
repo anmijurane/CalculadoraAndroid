@@ -25,12 +25,14 @@
         android:layout_marginTop="@dimen/margentop"
         android:background="@color/background"
         android:text="C"
+        android:textSize="@dimen/tamañonumero"
         android:textColor="@color/colortexto_btn"
         app:layout_constraintEnd_toStartOf="@id/Divide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Etiqueta" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Divide"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -43,6 +45,7 @@
         app:layout_constraintTop_toBottomOf="@id/Etiqueta" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Multiplica"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -55,6 +58,7 @@
         app:layout_constraintTop_toBottomOf="@id/Etiqueta" />
 
     <Button
+        android:textSize="16sp"
         android:id="@+id/Borrar"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -67,6 +71,7 @@
         app:layout_constraintTop_toBottomOf="@id/Etiqueta" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Siete"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -80,6 +85,7 @@
         app:layout_constraintTop_toBottomOf="@id/Clean" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Ocho"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -92,6 +98,7 @@
         app:layout_constraintTop_toBottomOf="@id/Divide" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Nueve"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -104,6 +111,7 @@
         app:layout_constraintTop_toBottomOf="@id/Multiplica" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Resta"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -116,6 +124,7 @@
         app:layout_constraintTop_toBottomOf="@id/Borrar" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Cuatro"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -129,6 +138,7 @@
         app:layout_constraintTop_toBottomOf="@id/Siete" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Cinco"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -143,6 +153,7 @@
         />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Seis"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -156,6 +167,7 @@
         app:layout_constraintTop_toBottomOf="@id/Nueve" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Suma"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -170,6 +182,7 @@
         app:layout_constraintTop_toBottomOf="@id/Resta" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Uno"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -182,6 +195,7 @@
         app:layout_constraintTop_toBottomOf="@id/Cuatro" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Dos"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -195,6 +209,7 @@
         app:layout_constraintTop_toBottomOf="@id/Cinco" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Tres"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/ancho_cuadros"
@@ -210,6 +225,7 @@
 
     <Button
         android:id="@+id/Igual"
+        android:textSize="@dimen/tamañonumero"
         android:layout_width="wrap_content"
         android:layout_height="239dp"
         android:layout_rowSpan="2"
@@ -223,6 +239,7 @@
         app:layout_constraintTop_toBottomOf="@id/Suma" />
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Cero"
         android:layout_marginStart="@dimen/margenStart"
         android:background="@color/background"
@@ -235,6 +252,7 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <Button
+        android:textSize="@dimen/tamañonumero"
         android:id="@+id/Punto"
         android:layout_marginTop="@dimen/margentop"
         android:layout_marginStart="@dimen/margenStart"
