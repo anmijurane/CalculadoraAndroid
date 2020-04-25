@@ -3,7 +3,8 @@
     <dimen name="tama_texto">7sp</dimen>
     <dimen name="tf_di_table">100dp</dimen>
     <dimen name="textama">35dp</dimen>
-    <dimen name="ancho_cuadros">warp_content</dimen>
+    <dimen name="ancho_cuadros">115dp</dimen>
     <dimen name="margentop">10dp</dimen>
     <dimen name="margenStart">12dp</dimen>
+    <dimen name="tamañonumero">50sp</dimen>
 </resources>
