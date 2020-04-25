@@ -11,4 +11,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
+    public double Result(double a, double b, String operator) {
+        double result = 0.0;
+        if (operator.equals("+")){
+            result = a + b;
+        }else if (operator.equals("-")){
+            result = a - b;
+        }else if (operator.equals("/")){
+            result = a / b;
+        }else if (operator.equals("*")){
+            result = a * b;
+        }
+        return result;
+    }
+
 }
